@@ -1,0 +1,112 @@
+.App {
+  min-height: 100vh;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(20,43,62,1) 0%, rgba(33,150,255,1) 100%, rgba(104,190,207,1) 100%);
+
+}
+
+.top-nav #navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.top-nav{
+  background-color: black;
+  padding: 20px 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.top-nav #nav-bar{
+  display: flex;
+  
+}
+
+
+
+#nav-bar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+#nav-bar li a:hover {
+  color: rgba(33, 150, 255, 1);
+}
+#nav-bar li a:hover::after {
+  content:"";
+  width: 30%;
+  height: 2px;;
+  background: rgba(33, 150, 255, 1);
+  position:absolute;
+  bottom:-4px;
+  left:20px
+}
+
+.public-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Set the height as needed */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+#login{
+  margin-left:auto;
+}
+
+#dmca-bar {
+  background-color: black;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0;align-items: center;
+}
+
+#dmca-bar li {
+  display: inline;
+  margin-right: 20px;
+  
+}
+
+#dmca-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+#dmca-bar a:hover {
+  text-decoration: underline;
+}
+
+
+.view-user-list{
+  margin-bottom: 50px;
+}
+
+
+#creator{
+  margin-left: 500px;
+
+}
+
+
+
+
